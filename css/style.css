@@ -45,9 +45,7 @@ body {
 
 .tab { 
   display: inline-block;
-  background-color: #00BBD3;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  background-color: #00BBD3; 
 }
 
 .tab-title { 
@@ -55,8 +53,12 @@ body {
   background-color: #00BBD3;
   font-size: 15px;
   color: white;
-  margin-left: 25px;
-  margin-right: 12px;
+  padding: 12px 12px 12px 25px;
+}
+
+#active {
+    border-bottom: 1px solid yellow;
+    border-width: medium;  
 }
 
 .map {
