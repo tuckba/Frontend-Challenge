@@ -1,7 +1,7 @@
 
 body {
   background-color: darkgray;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   width: 375px;
   margin: auto;
   margin-top: 20px;
@@ -45,7 +45,7 @@ body {
 
 .tab { 
   display: inline-block;
-  background-color: #00BBD3; 
+  background-color: #00BBD3;
 }
 
 .tab-title { 
@@ -62,15 +62,16 @@ body {
 }
 
 .map {
-  background-color: white;
-  width: 375px;
+  width: 100%;
   height: 318px;
+  background-color: white;
 }
 
 .approaching {
   font-size: 12px;
   font-weight: 600;
   color: darkgray;
+  padding-top: 8px;    
   padding-bottom: 8px;  
 }
 
@@ -103,7 +104,8 @@ body {
   width: 10%;
   margin-top: 3%;
   margin-left: 5%;
-  padding: 1.5%;
+  margin-right: 3%;    
+  padding: 2%;
 }
 
 
@@ -122,6 +124,7 @@ body {
   font-size: 12px;
   padding-left: 20%;
   letter-spacing: 0.5px; 
+  line-height: 15px;    
 }
 
 .angle-right {
@@ -141,8 +144,7 @@ ul.footer-icons {
   background-color: white;
   color: gray;
   height: 35px;
-  width: 373px;
-  margin 0 10px; 
+  width: 373px; 
 }
 
 ul.footer-icons li { 
