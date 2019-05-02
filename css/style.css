@@ -32,7 +32,7 @@ body {
 .current-stop {
   margin-left: 40px;
   margin-right: 40px;
-  font-size:20px;
+  font-size: 20px;
   color: white;
 }
 
@@ -46,9 +46,10 @@ body {
 .tab { 
   display: inline-block;
   background-color: #00BBD3;
+  width: 100%;
 }
 
-.tab-title { 
+.tab-title {
   display: inline-block;
   background-color: #00BBD3;
   font-size: 15px;
@@ -58,7 +59,7 @@ body {
 
 #active {
     border-bottom: 1px solid yellow;
-    border-width: medium;  
+    border-width: medium;
 }
 
 .map {
@@ -82,6 +83,7 @@ body {
   color: black;
   padding-top: 4px;
   padding-left: 10px;
+  height: 200px;    
 }
 
 .content {
@@ -112,7 +114,6 @@ body {
 .arrival-time {
   width: 100%;
   padding-top: 3%;
-  padding-left: 20%;
   padding-bottom: 1%;
   margin-top: 3px;
   margin-bottom: 3px;
@@ -135,45 +136,25 @@ body {
  color: #757575;
 }
 
-ul.footer-icons {
+.footer-icons {
   list-style: none;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
+  font-size: 13px;
   background-color: white;
   color: gray;
-  height: 35px;
-  width: 373px; 
+  width: 100%; 
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-ul.footer-icons li { 
+.footer-icons li { 
 list-style: none;
 display: flex;
+flex-direction: column;
+align-items: center;
 justify-content: center;
-color: gray;
-width: 120px;
-padding-top: 8px;
+width: 100%;
 }
-
-
-
-.footer-nav { 
-  display: inline-block;
-  background-color: white;
-  padding-top: 2px;
-  padding-bottom: 20px;
-}
-
-.nav-title { 
-  display: inline;
-  background-color: white;
-  font-size: 14px;
-  color: darkgray;
-  margin-left: 35px;
-  margin-right: 35px; 
-}
-
 
 
 
